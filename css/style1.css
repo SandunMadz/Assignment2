@@ -1,0 +1,352 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+.clearfix{
+    overflow: auto;
+}
+header{
+    background:  linear-gradient(black,midnightblue,black);
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+
+}
+header img{
+    width: 75px;
+    height: 75px;
+    margin-left: 5px;
+}
+body{
+    background: #F2F2F2;
+}
+section{
+
+    position: relative;
+}
+nav{
+    position: fixed;
+    top: 80px;
+    bottom: 0;
+    left: 0;
+    width: 360px;
+    transition: all 2s;
+    background: linear-gradient(to top,darkcyan,midnightblue,black);
+}
+.maincontent{
+
+    position: relative;
+    background: #c8ceff;
+    margin-left: 400px;
+    top: 100PX;
+    right: 20px;
+    margin-right: 20px;
+    min-height: 1440px;
+    border-radius: 20px;
+    z-index: -50;
+}
+.list1{
+    position: fixed;
+    top: 0px;
+    left: 300px;
+    z-index: 2;
+  }
+.list2{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    list-style: none;
+    background: black;
+}
+.list2 li{
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Agency FB";
+    color: #ded6e0;
+    padding: 25px 10px;
+}
+.list2 li img{
+    height: 25px;
+    width: 25px;
+    padding-right:10px;
+
+}
+.list1 li{
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    font-family: "Agency FB";
+    color: #ded6e0;
+    padding: 25px;
+
+}
+
+.list1 li:first-child{
+    background-color: black;
+}
+
+.list1 li:hover{
+    background-color: black;
+    color: white;
+    transition: all 2s;
+}
+.list1 li:last-child:hover .listsub{
+    display: inline;
+    right: 0;
+    background: black;
+    transition: all 5s;
+    z-index: -1;
+}
+
+.mainpic{
+    height: 150px;
+    border-radius: 150px;
+    width: 150px;
+    border: 4px solid white;
+    margin-left: 75px;
+    margin-top: 30px;
+    box-shadow: black 2px 2px 2px;
+}
+.in{
+    text-align: center;
+    position: fixed;
+    color: white;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: 100px;
+    text-shadow: black 2px 2px 2px;
+    box-shadow: midnightblue 1px 1px 1px;
+    padding: 10px;
+}
+nav h2{
+    position: fixed;
+    margin-top: 15px;
+    margin-left: 45px;
+    text-align: center;
+    font-family: "Adobe Song Std L";
+    color: white;
+
+}
+nav h4{
+    position: fixed;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: "Adobe Song Std L";
+    color: white;
+
+}
+
+.iconset{
+    position: absolute;
+    margin-left: 300px;
+    top: 150px;
+}
+.iconset li{
+    list-style: none;
+    padding-bottom: 60px;
+}
+.iconset li img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+
+}
+.iconset li img:hover{
+    width: 45px;
+    height: 45px;
+}
+.con1{
+    height: 40px;
+    width: 100%;
+    background: midnightblue;
+}
+.con1 img{
+    float: left;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+.con1 h6{
+    position: absolute;
+    margin-left:40px;
+    font-family: "Yu Gothic UI Semibold";
+    font-size:20px;
+    margin-top: 10px;
+    color: white;
+}
+.con2-box1{
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    border-radius: 4px;
+    border: 1px solid midnightblue;
+    background: #d7e1ff;
+}
+.con2-box1head{
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    width: 100%;
+    height: 60px;
+    background: midnightblue;
+}
+.con2-box1head h5{
+    position: absolute;
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    font-family: "Segoe UI Historic";
+}
+.con2-box1 img{
+    width: 75px;
+    height: 75px;
+    padding: 20px;
+}
+.con2-box1 h1{
+
+    position: absolute;
+    color: midnightblue;
+    bottom: 0px;
+    right: 20px;
+    font-size: 45px;
+}
+
+.titlecon h1{
+    position: absolute;
+    top: 380px;
+    left: 20px;
+}
+.titlecon h4{
+    position: absolute;
+    top: 413px;
+    color: #74759d;
+    left: 210px;
+}
+.mncon{
+    position: absolute;
+    top: 445px;
+    left: 20px;
+    /*height: 300px;*/
+    right: 20px;
+    bottom: 20px;
+    background: transparent;
+    padding: 20px;
+    border-top: 5px solid black;
+}
+.chart1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 300px;
+    box-shadow: black 1px 1px 2px;
+}
+.chart1head{
+    width: 100%;
+    height: 20%;
+    background: midnightblue;
+
+}
+.chart1head h4{
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    padding: 15px;
+    font-family: "Yu Gothic UI Semibold";
+}
+.chart1 img{
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    height: 80%;
+}
+.box1{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    height: 300px;
+    width: 500px;
+    background: aqua;
+}
+.con2-box1 input#text1{
+    position: absolute;
+    top: 110px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    left: 25px;
+    font-family: "Yu Gothic UI Semibold";
+    width: 450px;
+}
+.con2-box1 input#button1{
+    position: absolute;
+    top: 180px;
+    height: 40px;
+    color: white;
+    background: midnightblue;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    left: 25px;
+    font-family: "Yu Gothic UI Semibold";
+    width: 150px;
+}
+.con2-box1 select{
+    position: absolute;
+    top: 180px;
+    height: 40px;
+    color: #8296a8;
+    background: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    left: 200px;
+    font-family: "Yu Gothic UI Semibold";
+    width: 150px;
+}
+.buttonset{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+}
+.buttonset input.buttonst{
+    height: 40px;
+    width: 220px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-family: "Yu Gothic UI Semibold";
+}
+nav h5{
+    position: fixed;
+    bottom: 20px;
+    text-align: center;
+    color: #dbdbdb;
+    left: 40px;
+    font-size: 12px;
+    font-family: "Segoe UI Light";
+}
+.listsub{
+    position: absolute;
+    /*left: 0;*/
+    right: 0;
+    background: black;
+    display: none;
+    transition: all 3s;
+    top: 70px;
+    z-index: -2;
+
+}
+.listsub li{
+    color: #F2F2F2;
+    display: block;
+    transition: all 2s;
+    z-index: -2;
+
+}
+.listsub li:hover{
+    color: #c8ceff;
+    background: #0c6975;
+    transition: all 2s;
+}
